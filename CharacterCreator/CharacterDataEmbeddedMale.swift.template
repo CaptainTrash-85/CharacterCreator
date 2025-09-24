@@ -1,0 +1,22 @@
+// Template only - do NOT commit real data files
+import Foundation
+let embeddedCharacterDataJSONMale = """
+{
+  "ages": [],
+  "ethnicities": [],
+  "skinTones": [],
+  "bodyTypes": [],
+  "faceShapes": [],
+  "eyeColors": [],
+  "facialHair": [],
+  "expressions": [],
+  "hairstyles": {},
+  "hairColors": [],
+  "cameras": [],
+  "environments": [],
+  "lightings": [],
+  "accessories": [],
+  "poseCategories": {},
+  "clothingCategories": {}
+}
+"""

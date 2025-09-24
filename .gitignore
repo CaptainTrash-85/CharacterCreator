@@ -1,0 +1,67 @@
+# =====================================
+# macOS / Finder
+# =====================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# =====================================
+# Xcode / Swift / Derived Data
+# =====================================
+build/
+DerivedData/
+*.xcuserstate
+
+# Xcode project user-specific settings
+*.xcworkspace/xcuserdata
+*.xcodeproj/xcuserdata
+
+# =====================================
+# App Bundles / Archives
+# =====================================
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+
+# =====================================
+# Swift Package Manager
+# =====================================
+.build/
+Package.resolved
+
+# =====================================
+# CocoaPods
+# =====================================
+Pods/
+Podfile.lock
+
+# =====================================
+# Carthage
+# =====================================
+Carthage/Build
+
+# =====================================
+# Fastlane
+# =====================================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# =====================================
+# Embedded JSON files (local only)
+# =====================================
+CharacterCreator/CharacterDataEmbedded.swift
+CharacterCreator/CharacterDataEmbeddedMale.swift
+
+# =====================================
+# Optional: Ignore the built .app bundle
+# =====================================
+CharacterCreator.app/
+
+# Ignore Xcode project files (keep only Swift sources)
+*.xcodeproj/
+*.xcworkspace/
